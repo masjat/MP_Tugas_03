@@ -29,7 +29,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Greeting("Jatmika")
+                    Greeting("Jatmika Herlambang")
                 }
             }
         }
@@ -38,7 +38,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Surface (color = Color.Cyan) {
+    Surface (color = Color.Magenta) {
         Text(
             text = "Hello $name! How Are You?",
             style = TextStyle(fontSize = 50.sp,
@@ -52,6 +52,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     Coba3Theme {
-        Greeting("Jatmika")
+        Greeting("Jatmika Herlambang")
     }
 }
